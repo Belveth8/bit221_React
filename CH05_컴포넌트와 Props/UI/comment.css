@@ -1,0 +1,41 @@
+.comment {
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+}
+.user-info {
+  display: flex;
+  margin-left:  10px;
+  margin-right:  10px;
+}
+.user-info-name {
+  font-size: 20px;
+  font-weight:  bold;
+  color:  rgb(42, 41, 41);
+  line-height:  50px;
+  padding-left:  16px;
+}
+.commnet-txt {
+  width: 50%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 16px;
+}
+
+.container {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.comment-date {
+  margin-top: 15px;
+  font-size: 12px;
+}

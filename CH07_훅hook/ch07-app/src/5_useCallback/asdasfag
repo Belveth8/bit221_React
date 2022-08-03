@@ -1,0 +1,41 @@
+// import React, { useState } from 'react'
+// import Box from './Box'
+
+
+
+// function UseCallback03() {
+
+//   const [size, setSize] = useState(100);
+//   const [ isDark, setIsDark ] = useState(false);
+
+//   const createBoxStyle = () => {
+//     return {
+//       backgroundColor : 'yellowgreen',
+//       width : `${ size }px`,
+//       heigth :`${ size }px`
+//     }
+//   }
+
+//   return (
+
+//     <div style={ { backgroundColor : isDark ? '#333'  : 'white' } }>
+//       <input className='form-control mb-1'
+//         type='number'
+//         value={ size }
+//         onChange= { (e) =>  setSize(e.target.value)  }
+//       />
+//       <button className='btn btn-info'
+//           onClick={ () => setIsDark(!isDark) }
+//       >
+//         Change Theme
+//       </button>
+
+//       <br />
+//        {/* Box에 props로 css 속성 전달하기 */}
+//       <Box createBoxStyle={createBoxStyle} />
+//     </div>
+
+//   )
+// }
+
+// export default UseCallback03
